@@ -71,6 +71,7 @@ int main()
 	cout<<"\nEnter 3 to know the tax collection of level C employees"<<endl;
 	cin >>choice;
 	
+	
 	if(choice == 1)
 	{
 		cout<<"Tax collection of level A employee is Rs. "<<total_tax_A;
