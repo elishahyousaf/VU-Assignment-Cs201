@@ -17,6 +17,7 @@ let renamed = 0;
 for (const doc of files) {
   const file = path.parse(doc);
 
+  
   // skip not matching file types
   if (file.ext != type_filter) continue;
   // skip not matching file names
